@@ -1,6 +1,6 @@
 {
   "name": "one-inch-punch",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Small JS library to help manage KnockoutJS components",
   "main": "one-inch-punch.js",
   "scripts": {
