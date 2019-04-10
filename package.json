@@ -1,8 +1,8 @@
 {
   "name": "one-inch-punch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Small JS library to help manage KnockoutJS components",
-"private": true,
+  "private": true,
   "scripts": {
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
