@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/webpack/buildin/harmony-module.js":
+/*!*******************************************!*\
+  !*** (webpack)/buildin/harmony-module.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = function(originalModule) {\n\tif (!originalModule.webpackPolyfill) {\n\t\tvar module = Object.create(originalModule);\n\t\t// module.parent = undefined by default\n\t\tif (!module.children) module.children = [];\n\t\tObject.defineProperty(module, \"loaded\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.l;\n\t\t\t}\n\t\t});\n\t\tObject.defineProperty(module, \"id\", {\n\t\t\tenumerable: true,\n\t\t\tget: function() {\n\t\t\t\treturn module.i;\n\t\t\t}\n\t\t});\n\t\tObject.defineProperty(module, \"exports\", {\n\t\t\tenumerable: true\n\t\t});\n\t\tmodule.webpackPolyfill = 1;\n\t}\n\treturn module;\n};\n\n\n//# sourceURL=webpack:///(webpack)/buildin/harmony-module.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,7 +105,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _infrastructure_ComponentConfiguration_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./infrastructure/ComponentConfiguration.js */ \"./src/infrastructure/ComponentConfiguration.js\");\n/* harmony import */ var _infrastructure_ComponentManager_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./infrastructure/ComponentManager.js */ \"./src/infrastructure/ComponentManager.js\");\n/* harmony import */ var _infrastructure_TemplateFromUrlComponentLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./infrastructure/TemplateFromUrlComponentLoader.js */ \"./src/infrastructure/TemplateFromUrlComponentLoader.js\");\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _infrastructure_ComponentConfiguration_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./infrastructure/ComponentConfiguration.js */ \"./src/infrastructure/ComponentConfiguration.js\");\n/* harmony import */ var _infrastructure_ComponentManager_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./infrastructure/ComponentManager.js */ \"./src/infrastructure/ComponentManager.js\");\n/* harmony import */ var _infrastructure_TemplateFromUrlComponentLoader_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./infrastructure/TemplateFromUrlComponentLoader.js */ \"./src/infrastructure/TemplateFromUrlComponentLoader.js\");\n\n\n\n\nmodule.exports.ComponentConfiguration = _infrastructure_ComponentConfiguration_js__WEBPACK_IMPORTED_MODULE_0__;\nmodule.exports.ComponentManager = _infrastructure_ComponentManager_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\nmodule.exports.TemplateFromUrlComponentLoader = _infrastructure_TemplateFromUrlComponentLoader_js__WEBPACK_IMPORTED_MODULE_2__;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ \"./node_modules/webpack/buildin/harmony-module.js\")(module)))\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
