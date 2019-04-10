@@ -1,0 +1,33 @@
+{
+  "name": "one-inch-punch",
+  "version": "0.0.1",
+  "description": "Small JS library to help manage KnockoutJS components",
+  "main": "one-inch-punch.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itlackey/one-inch-punch.git"
+  },
+  "keywords": [
+    "knockout",
+    "knockoutjs",
+    "web",
+    "components"
+  ],
+  "author": "ITLackey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itlackey/one-inch-punch/issues"
+  },
+  "homepage": "https://github.com/itlackey/one-inch-punch#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.1.0"
+  }
+}
