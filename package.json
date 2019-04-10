@@ -1,6 +1,6 @@
 {
   "name": "one-inch-punch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Small JS library to help manage KnockoutJS components",
   "main": "one-inch-punch.js",
   "scripts": {
@@ -14,8 +14,10 @@
   "keywords": [
     "knockout",
     "knockoutjs",
-    "web",
-    "components"
+    "web components",
+    "knockout js",
+    "one inch punch",
+    "bruce lee"
   ],
   "author": "ITLackey",
   "license": "MIT",
@@ -27,7 +29,14 @@
     "dist/**/*.*"
   ],
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
     "gulp": "^4.0.0",
-    "gulp-cli": "^2.1.0"
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
   }
 }
