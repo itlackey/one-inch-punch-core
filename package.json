@@ -1,6 +1,6 @@
 {
   "name": "one-inch-punch",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Small JS library to help manage KnockoutJS components",
   "main": "one-inch-punch.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/itlackey/one-inch-punch#readme",
   "files": [
-    "dist"
+    "dist/**/*.*"
   ],
   "devDependencies": {
     "gulp": "^4.0.0",
