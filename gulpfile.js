@@ -6,7 +6,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 const path = require('path');
 const spawn = require('child_process').spawn;
-const outputPath = 'sandbox';
+const outputPath = 'dist';
 
 function clean() {
   return spawn('rm', ['-rf', path.join(__dirname, outputPath)]);
