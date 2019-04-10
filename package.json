@@ -28,6 +28,9 @@
   "files": [
     "dist/**/*.*"
   ],
+  "dependencies": {
+    "knockout": "^3.5.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
