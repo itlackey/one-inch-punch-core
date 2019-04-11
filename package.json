@@ -1,6 +1,7 @@
 {
-  "name": "one-inch-punch",
-  "version": "0.0.9",
+  "name": "@one-inch-punch/core",
+  "private": false,
+  "version": "1.0.0",
   "description": "Small JS library to help manage KnockoutJS components",
   "scripts": {
     "build": "rollup --config",
