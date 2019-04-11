@@ -4,6 +4,7 @@
   "description": "Small JS library to help manage KnockoutJS components",
   "scripts": {
     "build": "gulp",
+    "start": "http-server -p 9091 -c-1 & open http://localhost:9091/sandbox/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -40,6 +41,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
+    "http-server": "^0.11.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
