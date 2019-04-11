@@ -1,5 +1,8 @@
 /* eslint-disable class-methods-use-this */
 class ComponentManager {
+	static instance() {
+		
+	}
 	init(componentLoader) {
 		ko.components.loaders.unshift(componentLoader);
 	}
@@ -33,4 +36,6 @@ class ComponentManager {
 	}
 }
 
-export default new ComponentManager();
+export default function() {
+	return new ComponentManager();
+}
